@@ -1,0 +1,10 @@
+.home{
+    padding-top: 180px;
+}
+.selectors_sector{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2px;
+    padding: 2px;
+}

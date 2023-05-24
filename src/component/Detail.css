@@ -1,0 +1,66 @@
+.movieDetail {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    padding-top: 210px;
+  }
+  
+  .movieDetail__poster {
+    width: 200px;
+    height: 300px;
+    margin-right: 1rem;
+    object-fit: cover;
+  }
+  
+  .movieDetail__info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movieDetail__title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .movieDetail__meta {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+  }
+  
+  .movieDetail__releaseDate {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+  }
+  
+  .movieDetail__rating {
+    font-size: 1.2rem;
+    background-color: #f44336;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .movieDetail__description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  /* Estilo cuando el cursor pasa sobre el botón */
+  .button:hover {
+    background-color: #ff9933;
+    
+  }
